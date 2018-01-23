@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BingoTestDemo</string>
+
+    <string name="title_activity_view_event">View的事件</string>
+
+</resources>
