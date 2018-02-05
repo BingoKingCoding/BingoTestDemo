@@ -18,6 +18,16 @@
         </activity>
         <activity android:name=".viewevent.ViewEventActivity">
         </activity>
+
+        <service android:name=".servicedemo.MyService"/>
+        <service android:name=".servicedemo.AidlService"/>
+
+        <activity android:name=".servicedemo.ServiceActivity">
+        </activity>
+        <activity android:name=".servicedemo.AidlActivity">
+        </activity>
+        <activity android:name=".handler.HandlerActivity">
+        </activity>
     </application>
 
 </manifest>

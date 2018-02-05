@@ -8,6 +8,8 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
+import com.bingo.king.handler.HandlerActivity;
+import com.bingo.king.servicedemo.ServiceActivity;
 import com.bingo.king.viewevent.ViewEventActivity;
 import com.bingo.king.adapter.SimpleAdapter;
 import com.chad.library.adapter.base.BaseQuickAdapter;
@@ -39,8 +41,8 @@ public class MainActivity extends BaseActivity
     private void initData()
     {
         mItemList.add(new MainItem("View事件分发", ViewEventActivity.class));
-        mItemList.add(new MainItem("View事件分发", ViewEventActivity.class));
-        mItemList.add(new MainItem("View事件分发", ViewEventActivity.class));
+        mItemList.add(new MainItem("Service的使用", ServiceActivity.class));
+        mItemList.add(new MainItem("Handle机制", HandlerActivity.class));
     }
 
     private void initView()
